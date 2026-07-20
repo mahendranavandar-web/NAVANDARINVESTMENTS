@@ -1,6 +1,17 @@
 body{font-family:Arial;margin:0;padding:0;background:#f0f8ff;color:#333}
 header{background:#0a4d68;color:white;padding:20px;text-align:center}
-.logo{background:white;color:#0a4d68;width:60px;height:60px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:32px;font-weight:bold;margin-bottom:10px}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.logo img {
+    height: 50px; /* logo chi height */
+    width: auto;
+}
 h1{margin:5px 0;font-size:22px}
 h2,h3{color:#0a4d68}
 section{padding:20px;margin:10px;background:white;border-radius:8px}
